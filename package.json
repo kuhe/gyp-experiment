@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node-gyp configure && node-gyp build && node index"
+    "test": "./node_modules/node-gyp/bin/node-gyp.js configure && ./node_modules/node-gyp/bin/node-gyp.js build && node index"
   },
   "author": "",
   "license": "ISC",

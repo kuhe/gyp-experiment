@@ -1,7 +1,7 @@
 #include <node.h>
 #include <v8.h>
 
-#include "src/main.cpp"
+#include "src/scratch.cpp"
 
 void Function(const v8::FunctionCallbackInfo<v8::Value>& args) {
 

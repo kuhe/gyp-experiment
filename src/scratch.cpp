@@ -7,7 +7,3 @@ const char* hmm() {
     string hmm = "hmm";
     return hmm.c_str();
 }
-
-int main() {
-    return 0;
-}
