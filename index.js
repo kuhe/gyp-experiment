@@ -6,5 +6,5 @@ var assert = require('assert');
  */
 var binding = require('./build/Release/binding');
 
-console.log('binding.main() =', binding.main());
-console.log('binding.sub(8, 7) =', binding.sub(8, 7));
+console.log('binding.main(\'hello world\') =', binding.main('hello world'));
+console.log('binding.add(8, 7) =', binding.add(8, 7));
