@@ -1,4 +1,4 @@
-#include "src/scratch.cpp"
+#include "src/lib.cpp"
 #include <iostream>
 
 using std::cout;

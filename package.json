@@ -11,5 +11,8 @@
   "dependencies": {
     "nan": "^2.1.0",
     "node-gyp": "^3.2.1"
+  },
+  "bin": {
+    "ccom": "./index.js"
   }
 }

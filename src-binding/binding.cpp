@@ -2,7 +2,7 @@
 #include <v8.h>
 #include <nan.h>
 #include <string>
-#include "src/scratch.cpp"
+#include "../src/lib.cpp"
 
 using namespace v8;
 using std::string;
